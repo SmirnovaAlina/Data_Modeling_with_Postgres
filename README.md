@@ -33,9 +33,10 @@ Star schema:
  2. Execute "etl.py". Processing data and write to the DB
  
  
-### Test Result 
+### Test 
 
-''' python 
+<code>
+
 %load_ext sql
 
 %sql postgresql://student:student@127.0.0.1/sparkifydb
@@ -44,4 +45,5 @@ Star schema:
 
 SELECT COUNT(*) from songplays; 
 
-'''
+
+</code> 
