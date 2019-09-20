@@ -20,7 +20,7 @@ Star schema:
 * one fact table: songplays, and
 * four dimension tables: users, songs, artists and time
 
-![data base](/images/Image.png)
+![data base](/images/Image.png =100x20)
 
 
 ### Data Processing 
@@ -31,10 +31,13 @@ Star schema:
  
 ### Test Result 
 
-''' 
+''' python 
 %load_ext sql
+
 %sql postgresql://student:student@127.0.0.1/sparkifydb
+
 %%sql
+
 SELECT COUNT(*) from songplays; 
 
 '''
