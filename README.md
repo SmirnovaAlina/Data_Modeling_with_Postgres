@@ -22,9 +22,9 @@ Star schema:
 
 
 
-<img src="images/Image.png" width="200" hight = "50" >
+<img src="images/Image.png" width="400" hight = "150" >
 
-![data base](/images/Image.png =100x20)
+
 
 
 ### Data Processing 
