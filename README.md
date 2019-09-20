@@ -20,6 +20,10 @@ Star schema:
 * one fact table: songplays, and
 * four dimension tables: users, songs, artists and time
 
+
+
+<img src="images/Image.png" width="200" hight = "50" >
+
 ![data base](/images/Image.png =100x20)
 
 
